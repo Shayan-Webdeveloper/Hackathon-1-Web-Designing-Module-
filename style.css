@@ -332,6 +332,9 @@ input[type="button"]{
     text-align: center;
     /* margin: 0 auto; */
   }
+  .seventh-hero-section h1{
+    width: 100% !important;
+  }
   .card-1 {
     width: 100% !important;
     font-size: 11px;
@@ -356,6 +359,10 @@ input[type="button"]{
   }
   .sevnenth-hero-section > h1 {
   width: 80%;
+    font-size: 2rem !important;
+    text-align: center;
+    margin: 0 auto;
+
 }
   .sevnenth-hero-section p:nth-child(3) {
     width: 100% !important;
