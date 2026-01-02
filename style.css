@@ -242,7 +242,48 @@ aside.float-right {
 .faq-text,.faq-accordion{
   width: 50% !important;
 }
+.tenth-hero-section p:nth-child(1) {
+  font-size: 13px;
+}
+.tenth-hero-section h1{
+  font-size: 3rem;
+  width: 40%;
+}
+.tenth-hero-section p:nth-child(3) {
+  font-size: 17px;
+  width: 35%;
+}
+.tenth-hero-section>div{
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+form{
+  background: #FDF7F1;
+;
+}
+input{
+  background-color: transparent;
+  border-bottom: 2px solid var(--primary-color) !important;
+  border-radius: 0% !important;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  outline: none !important;
+}
+input[type="button"]{
+  background-color: var(--primary-color) !important;
+  width: 100% !important;
+  text-align: center;
+  border: none !important;
+}
+.respond{
+  margin-top: 20%;
+}
+  .contact{
+    width: 50% !important;
+  }
 /* Media Query */
+
+
 @media (max-width: 991px) {
   .first-hero-section h1 {
     font-size: 2.2rem;
@@ -282,6 +323,9 @@ aside.float-right {
   .ninth-hero-section>h1{
   font-size: 2rem;
   width: 100%;
+}
+.contact{
+  width: 100% !important;
 }
   .third-hero-section p:nth-child(3) {
     width: 100% !important;
@@ -331,6 +375,18 @@ aside.float-right {
   width: 100% !important;
 }
 .community-content button{
+  width: 100% !important;
+}
+.respond{
+  margin-top: 0%;
+}
+.tenth-hero-section h1{
+  font-size: 2rem;
+  width: 80%;
+}
+.tenth-hero-section p{
+  font-size: 13px !important;
+  text-align: center;
   width: 100% !important;
 }
   /* .first-hero-section p{
