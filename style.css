@@ -1,0 +1,422 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--primary-color);
+  font-family: "Bricolage Grotesque";
+}
+html,
+body {
+  width: 100%;
+}
+:root {
+  --primary-color: #00373e;
+}
+nav {
+  position: sticky !important;
+  top: 0 !important;
+  background-color: white;
+  z-index: 1000;
+}
+nav * {
+  color: var(--primary-color) !important;
+}
+.navbar-brand {
+  font-size: 2rem !important;
+}
+/* First Hero Section */
+.first-hero-section {
+  background-color: #f9e6d0;
+  position: relative;
+  height: 90vh;
+  border-radius: 45px;
+  overflow: hidden;
+}
+.first-hero-section h1 {
+  font-size: 3rem;
+  width: 58%;
+  line-height: 150%;
+}
+.first-hero-section p {
+  width: 42%;
+  line-height: 150%;
+}
+aside.float-left {
+  background-image: url(./Images/Image-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 25%;
+  position: absolute;
+  height: 90%;
+  bottom: 0%;
+  left: 0%;
+}
+aside.float-right {
+  background-image: url(./Images/Image-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 30%;
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  right: 0%;
+}
+.first-hero-section button {
+  background-color: var(--primary-color);
+}
+.first-hero-section button {
+  width: 25% !important;
+}
+.second-hero-section h1 {
+  font-size: 3rem;
+}
+.second-hero-section p:nth-child(1) {
+  font-size: 13px;
+}
+.second-hero-section p:nth-child(3) {
+  font-size: 18px;
+  width: 50%;
+  text-align: justify;
+}
+.second-hero-section button {
+  background-color: var(--primary-color);
+  width: 35% !important;
+}
+.second-hero-section div:nth-child(2) {
+  background-color: var(--primary-color);
+  border-radius: 40px;
+}
+.third-hero-section {
+  margin-top: 7%;
+}
+.third-hero-section p:nth-child(1) {
+  font-size: 13px;
+}
+.third-hero-section p:nth-child(3) {
+  width: 27% !important;
+}
+.third-hero-section h1 {
+  font-size: 2rem;
+}
+.third-hero-section > h1 {
+  width: 30%;
+  font-size: 3rem;
+}
+.card-1 {
+  background-color: #f9e6d0;
+  width: 50% !important;
+}
+.card-2 {
+  width: 50% !important;
+}
+.card-1 button {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+}
+.card-2 p {
+  font-size: 18px;
+  width: 60%;
+}
+.card-2 button {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+}
+.card-2 {
+  background-color: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.cards > div {
+  width: 48%;
+}
+.fourth-hero-section {
+  margin-top: 7%;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.fourth-hero-section p:nth-child(2) {
+  width: 80%;
+  font-size: 20px;
+}
+.fourth-hero-section button {
+  background-color: #00373e;
+}
+.fourth-hero-section p:nth-child(3) {
+  width: 80% !important;
+  font-size: 20px;
+}
+.sixth-hero-section {
+  margin-top: 7%;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.seventh-hero-section {
+  margin-top: 7%;
+}
+.seventh-hero-section p:nth-child(1) {
+  font-size: 13px;
+}
+.sevnenth-hero-section p:nth-child(3) {
+  font-size: 18px;
+  width: 34% !important;
+  text-align: justify;
+}
+.sevnenth-hero-section h1 {
+  font-size: 3rem;
+}
+.sevnenth-hero-section > h1 {
+  width: 35%;
+}
+.resource-card .col-4 {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.resource-card-1,
+.resource-card-2,
+.resource-card-3 {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.resource-card-1 h2,
+.resource-card-2 h2,
+.resource-card-3 h2{
+  font-size: 2.4rem;
+}
+.resource-card-1 button {
+  background: #efc01d;
+}
+.resource-card-2 button {
+  background: #4ccbbb;
+}
+.resource-card-3 button {
+  background: #f39cac;
+}
+.eighth-hero-section {
+  margin-top: 7%;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.eighth-hero-section p:nth-child(1) {
+  font-size: 13px;
+}
+.eighth-hero-section p:nth-child(3) {
+  font-size: 17px;
+  width: 70%;
+}
+.eighth-hero-section h1{
+  font-size: 3rem;
+}
+.eighth-hero-section button {
+  background-color: var(--primary-color);
+  width: 35% !important;
+}
+.community-content{
+  width: 50% !important;
+}
+.community-image{
+  width: 50% !important;
+}
+.community-content button{
+  width: 80% !important;
+}
+.ninth-hero-section>h1{
+  font-size: 3rem;
+  width: 37%;
+}
+.faq-text{
+  width: 30%;
+}
+.faq-text>div{
+  background: #F9E6D0;
+  width: 100% !important;
+  height: 60% !important;
+  bottom: 0;
+  z-index: 0;
+}
+.faq-text>div>img{
+  z-index: 10 !important;
+}
+/* Media Query */
+@media (max-width: 991px) {
+  .first-hero-section h1 {
+    font-size: 2.2rem;
+  }
+  .first-hero-section p {
+    font-size: 13px;
+    width: 50%;
+  }
+  .first-hero-section {
+    border-radius: 25px;
+  }
+  .card-1 img{
+    width: 35% !important;
+  }
+  aside.float-right {
+    width: 35% !important;
+    height: 100%;
+  }
+  aside.float-left {
+    width: 30% !important;
+    height: 90% !important;
+  }
+  .second-hero-section h1 {
+    font-size: 2rem;
+    width: 80% !important;
+  }
+  .second-hero-section p:nth-child(3) {
+    font-size: 14px;
+    width: 80%;
+  }
+  .second-hero-section button {
+    width: 50% !important;
+  }
+  .third-hero-section > h1 {
+    width: 60%;
+  }
+  .third-hero-section p:nth-child(3) {
+    width: 100% !important;
+    text-align: center;
+    /* margin: 0 auto; */
+  }
+  .card-1 {
+    width: 100% !important;
+    font-size: 11px;
+  }
+  .card-2 {
+    /* margin-top: 3%; */
+    width: 100% !important;
+    font-size: 11px;
+  }
+  .card-1 h1{
+    font-size: 1.5rem;
+  }.card-2 h1{
+    font-size: 1.5rem;
+  }
+  .card-1 p{
+    font-size: 12px;
+  }.card-2 p{
+    font-size: 12px;
+  }
+  .card-3 button{
+    width: 100% !important;
+  }
+  .sevnenth-hero-section > h1 {
+  width: 80%;
+}
+  .sevnenth-hero-section p:nth-child(3) {
+    width: 100% !important;
+    text-align: center;
+  }
+.community-content{
+  width: 100% !important;
+}
+.community-image{
+  width: 100% !important;
+  margin-top: 5%;
+}
+.eighth-hero-section{
+  width: 100% !important;
+}
+.community-content p{
+  width: 100% !important;
+}
+.community-content button{
+  width: 100% !important;
+}
+  /* .first-hero-section p{
+    width: 100%;
+    } */
+    /* aside.float-left{
+      width: 40%;
+      height: 50%;
+      bottom: 5%;
+          left: 5%;
+          }
+     aside.float-right{
+          width: 40%;
+          height: 50%;
+          top: 5%;
+          right: 5%;
+     } */
+}
+@media (max-width: 768px) {
+  .first-hero-section h1 {
+    font-size: 1.8rem;
+  }
+  .first-hero-section p {
+    font-size: 11px;
+    width: 60%;
+  }
+  aside.float-left {
+    width: 30% !important;
+    height: 100%;
+  }
+  .third-hero-section > h1 {
+    width: 100%;
+  }
+  aside.float-right {
+    width: 40% !important;
+    height: 100%;
+    bottom: 0;
+  }
+  .eighth-hero-section h1{
+    font-size: 2rem !important;
+  }
+  .second-hero-section h1 {
+    font-size: 1.5rem;
+  }
+  .second-hero-section div:nth-child(2) {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+  }
+  .third-hero-section h1 {
+    font-size: 2rem;
+  }
+  .fourth-hero-section p:nth-child(2) {
+  width: 80% !important;
+  font-size: 15px;
+}
+.fourth-hero-section p:nth-child(3) {
+  width: 80% !important;
+  font-size: 15px;
+}
+}
+@media (max-width: 650px) {
+  aside.float-right {
+    width: 40% !important;
+    height: 100%;
+    bottom: 0;
+  }
+  .first-hero-section button {
+    font-size: 11px;
+  }
+  .third-hero-section p:nth-child(3) {
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 600px) {
+  .first-hero-section h1 {
+    font-size: 1rem;
+    width: 70%;
+  }
+  .first-hero-section p {
+    font-size: 10px;
+    width: 70%;
+  }
+  aside.float-left {
+    width: 50% !important;
+    height: 90%;
+    left: -15%;
+  }
+  aside.float-right {
+    width: 60% !important;
+    height: 100%;
+    right: -10%;
+  }
+  .second-hero-section h1 {
+    font-size: 1.5rem;
+    width: 100% !important;
+  }
+  .third-hero-section h1 {
+    font-size: 1rem;
+  }
+}
