@@ -225,15 +225,22 @@ aside.float-right {
 .faq-text{
   width: 30%;
 }
+.faq-text>img{
+  position: relative;
+  z-index: 10;
+}
 .faq-text>div{
   background: #F9E6D0;
   width: 100% !important;
   height: 60% !important;
-  bottom: 0;
+  top: 40% !important;
   z-index: 0;
 }
-.faq-text>div>img{
-  z-index: 10 !important;
+.accordion-item{
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.faq-text,.faq-accordion{
+  width: 50% !important;
 }
 /* Media Query */
 @media (max-width: 991px) {
@@ -272,6 +279,10 @@ aside.float-right {
   .third-hero-section > h1 {
     width: 60%;
   }
+  .ninth-hero-section>h1{
+  font-size: 2rem;
+  width: 100%;
+}
   .third-hero-section p:nth-child(3) {
     width: 100% !important;
     text-align: center;
@@ -337,6 +348,9 @@ aside.float-right {
           top: 5%;
           right: 5%;
      } */
+      .faq-text,.faq-accordion{
+  width: 100% !important;
+}
 }
 @media (max-width: 768px) {
   .first-hero-section h1 {
